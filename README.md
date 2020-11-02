@@ -1,6 +1,6 @@
 # Bibliotheque
 
-```Sh 
+```SH 
 ng g c auth/signup
 ng g c auth/signin
 ng g c book-list
@@ -13,17 +13,32 @@ ng g s services/auth-guard
 npm install bootstrap --save
 ### reste à faire
 npm install --save bootstrap@3.3.7
+dans angular.json
+architect#styles
 "styles": [
 "./node_modules/bootstrap/dist/css/bootstrap.css",
 ...
 ]
 npm install --save rxjs-compat  
 ```
+### Installation la bibliotheque firebase
+npm install firebase --save
+
+
+
+
+
+### 1- Create repo bibliotheque
+### 2- git add .
+### 3- git commit -m "initialize projet"
+### 4- git remote add origin https://github.com/seammour/bibliotheque.git
+### 5- git push -u origin master
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
 
-## Development server
 
+## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
