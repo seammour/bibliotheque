@@ -24,6 +24,12 @@ npm install --save rxjs-compat
 ### Installation la bibliotheque firebase
 npm install firebase --save
 
+### Configurer le storage 
+-- Aller dans le menu storage
+-- cliquer sur commencer
+-- puis choisir la region pour stocker les données (fichiers)
+
+
 
 
 
